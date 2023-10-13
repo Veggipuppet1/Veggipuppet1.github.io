@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   and share projects that I have worked on to hopefully provide
   a living portfolio.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://LiamGoerke.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://Veggipuppet1.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 layouts_dir: "./_layouts"
