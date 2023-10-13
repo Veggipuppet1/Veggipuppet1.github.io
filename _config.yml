@@ -34,6 +34,15 @@ layouts_dir: "./_layouts"
 avatar: "/assets/img/dragon-programmer.png"
 navbar-links:
   About Me: "about"
+author: Liam Goerke
+social-network-links:
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  github: Veggipuppet1
+  linkedin: liam-goerke-94420144
+  twitter: Liam38422142
+  # patreon: DeanAttali
+  # youtube: c/daattali
+
 
 # Build settings
 # theme: minima
