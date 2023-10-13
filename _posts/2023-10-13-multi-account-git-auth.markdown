@@ -16,7 +16,7 @@ Github currently provides functionality to push authenticate via SSH tokens. My 
 1. generate a new SSH key
     * `ssh-keygen -t ed25519 -C "your_personal_email@example.com" -f ~/.ssh/<personal_key> `
     * add a passphrase on prompt
-    * validate SSH key generation wil ls -la ~/.ssh
+    * validate SSH key generation wil ls `-la ~/.ssh`
 2. Tell the `ssh-agent`
     * `eval "$(ssh-agent -s)" && ssh-add -K ~/.ssh/<personal_key> `
 3. Edit SSH config
@@ -31,7 +31,7 @@ Github currently provides functionality to push authenticate via SSH tokens. My 
 
 4. Add the public key to you personal Github account
     * Currently this looks like: Github -> user icon -> settings -> SSH and GPG keys -> new SSH key
-    * Give it a name thaats relevent and add in the public key <personal_key>.pub (you can copy this by running: `tr -d '\n' < ~/.ssh/<created_key>.pub | pbcopy`)
+    * Give it a name thaats relevent and add in the public key {personal_key}.pub (you can copy this by running: `tr -d '\n' < ~/.ssh/<created_key>.pub | pbcopy`)
 
 5. Update your local repo git config
     * Add the following: 
