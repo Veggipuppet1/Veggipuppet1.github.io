@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Liam Goerke
+title: Home
 # email: liam.goeng@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my website, this is a place for me to dump knowledge
@@ -33,7 +33,7 @@ layouts_dir: "./_layouts"
 # beautiful-jekyll config:
 avatar: "/assets/img/dragon-programmer.png"
 navbar-links:
-  About Me: "about"
+  About: "about"
 author: Liam Goerke
 social-network-links:
   rss: true  # remove this line if you don't want to show an RSS link at the bottom

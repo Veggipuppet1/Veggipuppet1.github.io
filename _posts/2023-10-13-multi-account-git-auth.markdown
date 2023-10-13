@@ -3,8 +3,6 @@ layout: post
 title:  "Authenticating with github via different accounts on the same device"
 ---
 
-# Authenticating with github via different accounts on the same device
-
 ## Why?
 I have been wanting to develop and push changes to code in my personal repository as well as my work repo but these use different accounts and thus I would have to setup auth for 2 accounts on the same device.
 
