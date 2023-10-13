@@ -4,11 +4,13 @@ title:  "Authenticating with github via different accounts on the same device"
 ---
 
 ## Why?
-I have been wanting to develop and push changes to code in my personal repository as well as my work repo but these use different accounts and thus I would have to setup auth for 2 accounts on the same device.
+I have been wanting to develop and push changes to code in my personal repository as well as my work repo from the same device but these use different github accounts.
 
 ## How?
 
-Github currently provides functionality to push authenticate via SSH tokens. My work account is currently setup on my device using PATs (Personal Access Tokens) at a system level so I don't have to think about authentication for that any more. To solve this issue I used SSH keys for my personal device and overrode the local git config for personal repositories.
+Github currently provides functionality to authenticate as different users on the same device. My work account is currently setup on my device using PATs (Personal Access Tokens) at a system level so I don't have to think about authentication for that any more. But I don't currently have anything setup for my personal account. 
+
+In this post I will setup SSH authentication for my personal account so that I can push changes as a different user depending on the repo I am working on.
 
 ## Steps:
 1. generate a new SSH key
